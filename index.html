@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <title>Odin Recipes</title>
 </head>
+
 <body>
-    <h1>Odin Recipes</h1>
-    <p><a href="recipes/pancake.html">German Pancake</a></p>
-    <p><a href="recipes/milkshake.html">Milkshake</a></p>
+    <div class="container">
+        <div class="title">
+            <h1>Odin Recipes</h1>
+        </div>
+        <div class="recipes">
+            <div class="recipe-container">
+                <div>
+                    <img class="image"
+                        src="https://www.allrecipes.com/thmb/a4cwRjPpDkP2SAesvffQKd1j_6w=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4089249-9dbaba86e56f4b08a91163b789e22594.jpg"
+                        alt="German Pancake">
+                </div>
+                <a href="recipes/pancake.html" class="recipe">German Pancake</a>
+            </div>
+            <div class="recipe-container">
+                <div>
+                    <img class="image"
+                        src="https://www.allrecipes.com/thmb/7G2v1WmQXiC1EFCQDW4m1Q_dFnE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4459682-vanilla-milkshake-House-of-Aqua-4x3-1-e3d610774d8f4dc1ac38ac0b1eddf971.jpg"
+                        alt="Milkshake picture">
+
+                </div>
+                <a href="recipes/milkshake.html" class="recipe">Milkshake</a>
+            </div>
+        </div>
+
+    </div>
+
 </body>
+
 </html>
